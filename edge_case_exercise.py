@@ -12,5 +12,4 @@ def move(my_list, direction):
     elif direction == 'left':
         new_list[index_of_one] = 0
         new_list[index_of_one - 1] = 1
-
     return new_list
